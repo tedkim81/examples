@@ -10,6 +10,7 @@ This repository contains example projects and code samples. The current example 
 
 ```bash
 .
+├── nextjs-sample/          # Next.js Hello World sample
 └── url_shortener/          # PHP URL shortener example
     ├── redirect/           # Redirect endpoint that resolves a slug to a destination URL
     └── www/                # API endpoint for creating shortened URLs
@@ -28,6 +29,22 @@ cd examples
 ```
 
 Refer to each example directory for specific usage and setup instructions.
+
+---
+
+## Next.js Sample
+
+The `nextjs-sample/` directory contains a minimal Next.js sample project. It provides a sample page that renders "Hello World" at the root route (`/`).
+
+To run the sample locally:
+
+```bash
+cd nextjs-sample
+npm install
+npm run dev
+```
+
+For production builds and startup commands, see the `nextjs-sample/README.md` file.
 
 ---
 
